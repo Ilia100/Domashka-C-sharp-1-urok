@@ -5,3 +5,15 @@
 -3 -> нет
 7 -> нет
 */
+
+Console.WriteLine("Введите число");
+string number = Console.ReadLine();
+int a = Convert.ToInt32(number);
+if (a>999 || a<100)
+{
+Console.WriteLine ("число не трехзначное");
+}
+else 
+{int b = a % 10;
+Console.WriteLine ("последнее число " + b);
+}
