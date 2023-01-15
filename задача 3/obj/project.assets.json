@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 4\\3.csproj",
-      "projectName": "3",
-      "projectPath": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 4\\3.csproj",
+      "projectUniqueName": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 3\\задача 3.csproj",
+      "projectName": "задача 3",
+      "projectPath": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 3\\задача 3.csproj",
       "packagesPath": "C:\\Users\\omen1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 4\\obj\\",
+      "outputPath": "C:\\Users\\omen1\\Desktop\\Elya c\\задача 3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\omen1\\AppData\\Roaming\\NuGet\\NuGet.Config"
