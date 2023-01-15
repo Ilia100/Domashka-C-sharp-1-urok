@@ -19,28 +19,24 @@ int num3int = Convert.ToInt32(num3);
 int result = 0;
 if (num1int == num2int & num2int == num3int)
 {
- result = num1int;
- Console.WriteLine("числа одинаковые");
+result = num1int;
+Console.WriteLine("числа одинаковые");
 }
-else
+else if (num1int > num2int & num1int > num3int)
 {
-   if (num1int > num2int & num1int > num3int)
-   {
-   result = num1int;
-   Console.WriteLine("большее число " + result);
-   }
-   else
-   {
-      if (num2int > num1int & num2int > num3int)
-      {
-         result = num2int;
-   Console.WriteLine("большее число " + result);
-      }
-      else 
-      {
-      result = num3int;
-      Console.WriteLine("большее число " + result);
-      }
-   }
+result = num1int;
+Console.WriteLine("большее число " + result);
 }
+else if (num2int > num1int & num2int > num3int)
+{
+result = num2int;
+Console.WriteLine("большее число " + result);
+}
+else 
+{
+result = num3int;
+Console.WriteLine("большее число " + result);
+}
+   
+
  
